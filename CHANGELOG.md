@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.7
+- Improve stream manifest fallback logic to prioritize `YoutubeApiClient.android` for compatibility with the latest playback changes.
+- Add muxed/HLS stream handling and InnerTube fallback so playback still works when DASH manifests are unavailable.
+- Enhance quality selection to support muxed streams and force-original audio across more scenarios. Thanks [@ioridev](https://github.com/ioridev) for the fixes.
+
 ## 2.0.6
 - Dependencies updated
 - Minor bug fixes
